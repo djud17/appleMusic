@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257996B529D4348B00350635 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996B429D4348B00350635 /* EditView.swift */; };
+		257996B829D4552B00350635 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996B729D4552B00350635 /* TextView.swift */; };
+		257996BA29D4557400350635 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996B929D4557400350635 /* PlayerView.swift */; };
+		257996BD29D455B800350635 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996BC29D455B800350635 /* MediaModel.swift */; };
+		257996BF29D455D600350635 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996BE29D455D600350635 /* CheckBoxStyle.swift */; };
 		2599C07429D4276700B89047 /* appleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599C07329D4276700B89047 /* appleMusicApp.swift */; };
 		2599C07629D4276700B89047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599C07529D4276700B89047 /* ContentView.swift */; };
 		2599C07829D4276900B89047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2599C07729D4276900B89047 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		257996B429D4348B00350635 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		257996B729D4552B00350635 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		257996B929D4557400350635 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		257996BC29D455B800350635 /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		257996BE29D455D600350635 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
 		2599C07029D4276700B89047 /* appleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2599C07329D4276700B89047 /* appleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleMusicApp.swift; sourceTree = "<group>"; };
 		2599C07529D4276700B89047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,11 +42,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		102BE0F4B912E642B831D046 /* Pods */ = {
+		257996B629D4551400350635 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
+				2599C07529D4276700B89047 /* ContentView.swift */,
+				257996B729D4552B00350635 /* TextView.swift */,
+				257996B929D4557400350635 /* PlayerView.swift */,
 			);
-			path = Pods;
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		257996BB29D455AC00350635 /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				257996B429D4348B00350635 /* EditView.swift */,
+				257996BC29D455B800350635 /* MediaModel.swift */,
+				257996BE29D455D600350635 /* CheckBoxStyle.swift */,
+			);
+			path = EditView;
 			sourceTree = "<group>";
 		};
 		2599C06729D4276700B89047 = {
@@ -44,7 +67,6 @@
 			children = (
 				2599C07229D4276700B89047 /* appleMusic */,
 				2599C07129D4276700B89047 /* Products */,
-				102BE0F4B912E642B831D046 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +81,9 @@
 		2599C07229D4276700B89047 /* appleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				257996B629D4551400350635 /* ContentView */,
+				257996BB29D455AC00350635 /* EditView */,
 				2599C07329D4276700B89047 /* appleMusicApp.swift */,
-				2599C07529D4276700B89047 /* ContentView.swift */,
 				2599C07729D4276900B89047 /* Assets.xcassets */,
 				2599C07929D4276900B89047 /* Preview Content */,
 			);
@@ -146,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2599C07629D4276700B89047 /* ContentView.swift in Sources */,
+				257996B829D4552B00350635 /* TextView.swift in Sources */,
+				257996BD29D455B800350635 /* MediaModel.swift in Sources */,
 				2599C07429D4276700B89047 /* appleMusicApp.swift in Sources */,
+				257996BF29D455D600350635 /* CheckBoxStyle.swift in Sources */,
+				257996BA29D4557400350635 /* PlayerView.swift in Sources */,
+				257996B529D4348B00350635 /* EditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
