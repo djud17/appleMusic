@@ -10,29 +10,12 @@ import SwiftUI
 struct ContentView: View {
 	var body: some View {
 		TabView {
-			NavigationView {
-				VStack {
-					Spacer()
-					TextView()
-					Spacer()
-					PlayerView()
-						.overlay(Divider(), alignment: .bottom)
+			MusicView()
+				.tabItem {
+					Image(systemName: "play.square.stack")
+					Text("Музыка")
 				}
-				.navigationTitle("Медиатека")
-				.toolbar {
-					NavigationLink(
-						destination: EditView(),
-						label: {
-							Text("Править")
-								.foregroundColor(.red)
-						}
-					)
-				}
-			}.tabItem {
-				Image(systemName: "play.square.stack")
-				Text("Музыка")
-			}
-			Text("Радио")
+			RadioView()
 				.tabItem {
 					Image(systemName: "dot.radiowaves.left.and.right")
 					Text("Радио")
