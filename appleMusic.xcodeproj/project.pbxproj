@@ -63,13 +63,20 @@
 			path = RadioView;
 			sourceTree = "<group>";
 		};
+		250CA0F629E2E4CA004BA88D /* MusicView */ = {
+			isa = PBXGroup;
+			children = (
+				257996B729D4552B00350635 /* TextView.swift */,
+				257996B929D4557400350635 /* PlayerView.swift */,
+				250CA0F229E2E142004BA88D /* MusicView.swift */,
+			);
+			path = MusicView;
+			sourceTree = "<group>";
+		};
 		257996B629D4551400350635 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
 				2599C07529D4276700B89047 /* ContentView.swift */,
-				257996B729D4552B00350635 /* TextView.swift */,
-				257996B929D4557400350635 /* PlayerView.swift */,
-				250CA0F229E2E142004BA88D /* MusicView.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
@@ -103,8 +110,9 @@
 		2599C07229D4276700B89047 /* appleMusic */ = {
 			isa = PBXGroup;
 			children = (
-				250CA0EB29E2CF96004BA88D /* RadioView */,
 				257996B629D4551400350635 /* ContentView */,
+				250CA0F629E2E4CA004BA88D /* MusicView */,
+				250CA0EB29E2CF96004BA88D /* RadioView */,
 				257996BB29D455AC00350635 /* EditView */,
 				2599C07329D4276700B89047 /* appleMusicApp.swift */,
 				2599C07729D4276900B89047 /* Assets.xcassets */,
