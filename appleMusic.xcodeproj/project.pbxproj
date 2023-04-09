@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250CA0ED29E2CFB1004BA88D /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250CA0EC29E2CFB1004BA88D /* RadioView.swift */; };
+		250CA0EF29E2DC33004BA88D /* RadioShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250CA0EE29E2DC33004BA88D /* RadioShowView.swift */; };
+		250CA0F129E2DD1D004BA88D /* MediaAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250CA0F029E2DD1D004BA88D /* MediaAsset.swift */; };
+		250CA0F329E2E142004BA88D /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250CA0F229E2E142004BA88D /* MusicView.swift */; };
 		257996B529D4348B00350635 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996B429D4348B00350635 /* EditView.swift */; };
 		257996B829D4552B00350635 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996B729D4552B00350635 /* TextView.swift */; };
 		257996BA29D4557400350635 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257996B929D4557400350635 /* PlayerView.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250CA0EC29E2CFB1004BA88D /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		250CA0EE29E2DC33004BA88D /* RadioShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioShowView.swift; sourceTree = "<group>"; };
+		250CA0F029E2DD1D004BA88D /* MediaAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAsset.swift; sourceTree = "<group>"; };
+		250CA0F229E2E142004BA88D /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
 		257996B429D4348B00350635 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		257996B729D4552B00350635 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		257996B929D4557400350635 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
@@ -42,12 +50,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250CA0EB29E2CF96004BA88D /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				250CA0EC29E2CFB1004BA88D /* RadioView.swift */,
+				250CA0EE29E2DC33004BA88D /* RadioShowView.swift */,
+				250CA0F029E2DD1D004BA88D /* MediaAsset.swift */,
+			);
+			path = RadioView;
+			sourceTree = "<group>";
+		};
 		257996B629D4551400350635 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
 				2599C07529D4276700B89047 /* ContentView.swift */,
 				257996B729D4552B00350635 /* TextView.swift */,
 				257996B929D4557400350635 /* PlayerView.swift */,
+				250CA0F229E2E142004BA88D /* MusicView.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
@@ -81,6 +100,7 @@
 		2599C07229D4276700B89047 /* appleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				250CA0EB29E2CF96004BA88D /* RadioView */,
 				257996B629D4551400350635 /* ContentView */,
 				257996BB29D455AC00350635 /* EditView */,
 				2599C07329D4276700B89047 /* appleMusicApp.swift */,
@@ -168,11 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250CA0EF29E2DC33004BA88D /* RadioShowView.swift in Sources */,
 				2599C07629D4276700B89047 /* ContentView.swift in Sources */,
 				257996B829D4552B00350635 /* TextView.swift in Sources */,
+				250CA0F329E2E142004BA88D /* MusicView.swift in Sources */,
 				257996BD29D455B800350635 /* MediaModel.swift in Sources */,
 				2599C07429D4276700B89047 /* appleMusicApp.swift in Sources */,
+				250CA0ED29E2CFB1004BA88D /* RadioView.swift in Sources */,
 				257996BF29D455D600350635 /* CheckBoxStyle.swift in Sources */,
+				250CA0F129E2DD1D004BA88D /* MediaAsset.swift in Sources */,
 				257996BA29D4557400350635 /* PlayerView.swift in Sources */,
 				257996B529D4348B00350635 /* EditView.swift in Sources */,
 			);
