@@ -50,6 +50,10 @@ struct PlayerView: View {
 			  maxWidth: .infinity,
 			  alignment: .center
 		)
-		.background(Color.gray.opacity(0.1))
+		.background(Color.lightGray)
 	}
+}
+
+extension Color {
+	static let lightGray = Color(uiColor: .systemGray6)
 }
